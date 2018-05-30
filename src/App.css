@@ -1,0 +1,77 @@
+
+:root {
+  --base: #2bce82;
+  --black: #232927;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: var(--base);
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.modal-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-head {
+  font-size: 77px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow:1;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 10;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+
+.submitButton {
+  height: 5rem;
+  background: green;
+  color:white;
+  font-family: 'lato';
+  font-weight: bold;
+  cursor: pointer;
+  font-size:1.3rem;
+  letter-spacing: 3px;
+}
+.submitButton:hover {
+  opacity: .9;
+}
+
+
+td {
+  text-align: center;
+}
